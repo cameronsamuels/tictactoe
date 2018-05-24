@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+table {
+  width: 99vw;
+  height: 99vw;
+  max-height: 99vh;
+  max-width: 99vh;
+  border: 0;
+}
+td {
+  box-sizing: border-box;
+  width: 33%;
+  height: 33%;
+  max-width: 33%;
+  max-height: 33%;
+  padding: 0;
+  border: 2px #222 solid;
+  font-size: 20vh;
+  text-align: center;
+  line-height: calc(33vh - 8px);
+  user-select: none;
+  cursor: pointer;
+}
